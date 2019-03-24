@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/beige"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".ThirdFragment">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50sp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:gravity="center"
+        android:text="@string/title3"
+        android:textColor="@color/burgundy"
+        android:textSize="26dp" />
+
+    <ImageButton
+        android:id="@+id/bunny"
+        android:layout_width="226dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="120dp"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:src="@drawable/bunny_happy_med"
+        android:visibility="visible" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom|end"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/slideThreeBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:focusable="true"
+            android:fontFamily="sans-serif-light"
+            android:gravity="bottom|start"
+            android:text="@string/back"
+            android:textColor="@color/orange"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/slideThreeDone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:focusable="true"
+            android:fontFamily="sans-serif-black"
+            android:gravity="bottom|end"
+            android:text="@string/done"
+            android:textColor="@color/orange"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+</LinearLayout>

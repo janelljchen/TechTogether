@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">NutriPets</string>
+
+    <string name="title1">Welcome!</string>
+    <string name="description1">Before we begin, please enter your gender, age, and activity level.</string>
+
+
+    <string name="title2">Daily Goals</string>
+    <string name="description2">These are the recommended values based on a 2000-calorie daily diet. Please adjust these values to your liking.</string>
+
+    <string name="title3">Choose Your Pet</string>
+
+    <string name="next">Next</string>
+    <string name="back">Back</string>
+    <string name="done">Done</string>
+
+    <string name="gender">Gender</string>
+    <string name="age">Age</string>
+    <string name="activity">Physical Activity</string>
+
+
+    <string name="fruitlabel">cups of fruits a day</string>
+    <string name="veggielabel">cups of vegetables a day</string>
+    <string name="title_activity_mainpage">Mainpage</string>
+</resources>
